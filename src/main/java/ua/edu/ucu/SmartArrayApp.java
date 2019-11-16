@@ -55,14 +55,14 @@ public class SmartArrayApp {
         MyPredicate predicateYear = new MyPredicate() {
             @Override
             public boolean test(Object t) {
-                return ((((Student) t).getYear() == 2));
+                return (((Student) t).getYear() == 2);
             }
         };
 
         MyPredicate predicateGPA = new MyPredicate() {
             @Override
             public boolean test(Object t) {
-                return ((((Student) t).getGPA() >= 4));
+                return (((Student) t).getGPA() >= 4);
             }
         };
 
